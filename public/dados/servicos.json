@@ -1,0 +1,146 @@
+[
+  {
+    "id": "tela-ip11",
+    "nome": "Troca de tela iPhone 11",
+    "categoria": "tela",
+    "precoCentavos": 35000,
+    "prazoDias": 2,
+    "garantiaDias": 90,
+    "descricao": "Display LCD compatível, com aplicação de vedação."
+  },
+  {
+    "id": "tela-ip13",
+    "nome": "Troca de tela iPhone 13",
+    "categoria": "tela",
+    "precoCentavos": 68000,
+    "prazoDias": 3,
+    "garantiaDias": 90,
+    "descricao": "Display OLED de alta qualidade, com vedação."
+  },
+  {
+    "id": "tela-a54",
+    "nome": "Troca de tela Galaxy A54",
+    "categoria": "tela",
+    "precoCentavos": 42000,
+    "prazoDias": 2,
+    "garantiaDias": 90,
+    "descricao": "Frontal AMOLED com aro."
+  },
+  {
+    "id": "tela-g54",
+    "nome": "Troca de tela Moto G54",
+    "categoria": "tela",
+    "precoCentavos": 29000,
+    "prazoDias": 2,
+    "garantiaDias": 90,
+    "descricao": "Frontal LCD com aro."
+  },
+  {
+    "id": "tela-redmi13",
+    "nome": "Troca de tela Redmi Note 13",
+    "categoria": "tela",
+    "precoCentavos": 31000,
+    "prazoDias": 2,
+    "garantiaDias": 90,
+    "descricao": "Frontal AMOLED compatível."
+  },
+  {
+    "id": "bateria-ip",
+    "nome": "Troca de bateria iPhone",
+    "categoria": "bateria",
+    "precoCentavos": 22000,
+    "prazoDias": 1,
+    "garantiaDias": 90,
+    "descricao": "Bateria de alta capacidade e calibração."
+  },
+  {
+    "id": "bateria-android",
+    "nome": "Troca de bateria Android",
+    "categoria": "bateria",
+    "precoCentavos": 16000,
+    "prazoDias": 1,
+    "garantiaDias": 90,
+    "descricao": "Bateria compatível para Samsung, Motorola e Xiaomi."
+  },
+  {
+    "id": "conector",
+    "nome": "Troca de conector de carga",
+    "categoria": "conector",
+    "precoCentavos": 12000,
+    "prazoDias": 1,
+    "garantiaDias": 90,
+    "descricao": "Substituição do conector USB-C ou Lightning."
+  },
+  {
+    "id": "limpeza",
+    "nome": "Limpeza de conector e alto-falante",
+    "categoria": "conector",
+    "precoCentavos": 5000,
+    "prazoDias": 0,
+    "garantiaDias": 30,
+    "descricao": "Remoção de oxidação e sujeira."
+  },
+  {
+    "id": "camera-tras",
+    "nome": "Troca de câmera traseira",
+    "categoria": "camera",
+    "precoCentavos": 26000,
+    "prazoDias": 2,
+    "garantiaDias": 90,
+    "descricao": "Módulo de câmera principal."
+  },
+  {
+    "id": "lente-camera",
+    "nome": "Troca de lente da câmera",
+    "categoria": "camera",
+    "precoCentavos": 8000,
+    "prazoDias": 1,
+    "garantiaDias": 30,
+    "descricao": "Vidro de proteção da câmera."
+  },
+  {
+    "id": "software",
+    "nome": "Atualização e reinstalação do sistema",
+    "categoria": "software",
+    "precoCentavos": 8000,
+    "prazoDias": 1,
+    "garantiaDias": 30,
+    "descricao": "Reinstalação de firmware com backup quando possível."
+  },
+  {
+    "id": "desbloqueio",
+    "nome": "Remoção de conta e reset de fábrica",
+    "categoria": "software",
+    "precoCentavos": 10000,
+    "prazoDias": 1,
+    "garantiaDias": 30,
+    "descricao": "Somente com comprovação de propriedade (nota fiscal)."
+  },
+  {
+    "id": "pelicula",
+    "nome": "Película de vidro 3D",
+    "categoria": "tela",
+    "precoCentavos": 3000,
+    "prazoDias": 0,
+    "garantiaDias": 30,
+    "descricao": "Película de vidro temperado com aplicação."
+  },
+  {
+    "id": "placa",
+    "nome": "Reparo em placa (microssolda)",
+    "categoria": "placa",
+    "precoCentavos": 25000,
+    "prazoDias": 5,
+    "garantiaDias": 60,
+    "descricao": "Diagnóstico e reparo de componentes da placa."
+  },
+  {
+    "id": "oxidacao",
+    "nome": "Tratamento de oxidação (banho químico)",
+    "categoria": "placa",
+    "precoCentavos": 15000,
+    "prazoDias": 3,
+    "garantiaDias": 30,
+    "descricao": "Limpeza ultrassônica após contato com líquido."
+  }
+]
