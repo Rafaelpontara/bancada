@@ -1,8 +1,8 @@
-# Site Bancada
+# Bancada
 
 Sistema de ordens de serviço para assistência técnica de celulares: registra o aparelho que chega no balcão, monta o orçamento a partir de um catálogo de serviços, acompanha aprovação, prazo de entrega e garantia.
 
-**Aplicação publicada:** https://rafaelpontara.github.io/bancada/
+**Aplicação publicada:** https://rafaelpontara.github.io/bancada/  
 **Tema:** livre (proposta em [`docs/PROPOSTA.md`](docs/PROPOSTA.md))
 
 ## Equipe
@@ -88,8 +88,8 @@ Todas são funções puras em `src/dominio`, sem React e sem `localStorage`. As 
 | R6 | Aprovado: cobra o total. Recusado: cobra só a taxa de diagnóstico de R$ 30,00 | `prazos.ts` |
 | R7 | Fluxo de status com transições permitidas; emitir exige pelo menos um serviço | `status.ts` |
 | R8 | Validação do cadastro e uma só OS aberta por IMEI | `validacao.ts` |
-| R10 | Cadastro de serviço: nome único (sem diferenciar maiúsculas), preço maior que zero, prazo de 0 a 60 dias, garantia de 0 a 365 dias | `servicos.ts` |
 | R9 | Relatório: faturamento, ticket médio, taxa de aprovação, atrasadas, serviços mais feitos e CSV | `relatorio.ts` |
+| R10 | Cadastro de serviço: nome único (sem diferenciar maiúsculas), preço maior que zero, prazo de 0 a 60 dias, garantia de 0 a 365 dias | `servicos.ts` |
 
 Datas (`datas.ts`) e dinheiro (`dinheiro.ts`) também têm funções e testes próprios.
 
@@ -114,9 +114,9 @@ Datas (`datas.ts`) e dinheiro (`dinheiro.ts`) também têm funções e testes pr
 | S15 | Cadastro com todos os campos corretos | Aceito |
 | S16 | Nome "Jo", telefone com 6 dígitos, IMEI inválido, data de amanhã | Erro ao lado de cada um desses 4 campos, foco no nome |
 | S17 | Nova OS com IMEI de um aparelho que está na OS #4, em reparo | *Este aparelho já tem uma OS aberta (OS #4)*. Se a OS #4 já foi entregue, aceita |
+| S18 | 2 OS entregues (R$ 360 e R$ 350), 1 devolvida e 1 em reparo atrasada | Faturamento R$ 740,00, ticket médio R$ 355,00, aprovação 75%, 1 atrasada |
 | S19 | Nova OS sem IMEI | Aceita; o detalhe mostra "Não informado" |
 | S20 | Novo serviço "troca de tela IPHONE 11", preço 0, prazo 90 | *Já existe um serviço com esse nome*, *Informe um preço maior que zero*, *Prazo em dias inteiros, de 0 a 60* |
-| S18 | 2 OS entregues (R$ 360 e R$ 350), 1 devolvida e 1 em reparo atrasada | Faturamento R$ 740,00, ticket médio R$ 355,00, aprovação 75%, 1 atrasada |
 
 ## Decisões técnicas
 
